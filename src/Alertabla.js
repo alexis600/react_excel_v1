@@ -6,7 +6,7 @@ class Alertabla extends React.Component {
     /*constructor() {
         super();
     }*/
-    state = {
+    state = {//tengo que ver esto
         json: [
             {/*
                 A: "axios",
@@ -21,7 +21,7 @@ class Alertabla extends React.Component {
         return (
             <div>
 
-                <table className="tablaAlarmas">
+                <table id="tablaAlarmas" className=" table table-stripped">
                     <thead>
                         <th></th>
                         <th>Severity</th>

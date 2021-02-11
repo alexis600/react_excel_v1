@@ -194,7 +194,7 @@ export default class Frame extends React.Component {
 
     }
 
-    // ver xq el boton getalarmas onclick da excepcion en this.loadtable
+    // ver xq el boton getalarmas onClick da excepcion en this.loadtable
     render() {
         const { login } = this.state;
         return (
